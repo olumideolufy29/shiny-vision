@@ -9,5 +9,6 @@ All of my open-sourced work for computer vision, stored in this "playground" rep
 
 ## Resources / Tutorials Used
 * OpenCV Documentation
+* Google Images (image resources)
 
 _Created by Akilesh Praveen_
