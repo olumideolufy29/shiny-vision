@@ -33,7 +33,7 @@ cv2.imwrite("resources/facial_profiles/1_modified.jpg", img)
 
 # finally, show the image after loading it
 cv2.namedWindow("Modified image", cv2.WINDOW_AUTOSIZE)
-# display image for 2s before destroying it.
+# display image for 1s before destroying it.
 cv2.imshow("Modified image", img)
 cv2.waitKey(1000)
 cv2.destroyAllWindows()
