@@ -6,10 +6,10 @@ import cv2
 import numpy as np
 
 # debug boolean, change to True to view debug messages
-isDebug = False
+isDebug = True
 
 # Read the image as input
-img = cv2.imread('resources/facial_profiles/1.jpg')
+img = cv2.imread('resources/colored_squares/green.png')
 
 # Get image dimensions
 height, width, channel = img.shape
@@ -27,8 +27,8 @@ for i in range(0, height-1):
         if (isDebug): print "blue:", px[0], " red:", px[1], " green:", px[2], '\n'
         # add all pixels to a List
         blue.append(px[0])
-        red.append(px[1])
-        green.append(px[2])
+        green.append(px[1])
+        red.append(px[2])
 
 # function that adds all items in a list.
 def listsum(numList):

@@ -37,7 +37,3 @@ cv2.namedWindow("Modified image", cv2.WINDOW_AUTOSIZE)
 cv2.imshow("Modified image", img)
 cv2.waitKey(1000)
 cv2.destroyAllWindows()
-
-
-
-
