@@ -6,10 +6,11 @@ import cv2
 import numpy as np
 
 # debug boolean, change to True to view debug messages
-isDebug = True
+isDebug = False
+
 
 # Read the image as input
-img = cv2.imread('resources/colored_squares/green.png')
+img = cv2.imread('resources/facial_profiles/1.jpg')
 
 # Get image dimensions
 height, width, channel = img.shape
